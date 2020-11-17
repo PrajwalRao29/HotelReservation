@@ -5,6 +5,8 @@ public class Hotel {
     public String startDate;
     public String endDate;
     public int rating;
+    public double specialWeekdayRate;
+    public double specialWeekendRate;
 
     public Hotel(String hotelName, int weekdayRate) {
         this.hotelName = hotelName;
